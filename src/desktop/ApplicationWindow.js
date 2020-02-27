@@ -172,7 +172,7 @@ export class ApplicationWindow {
 					    {key: Keys.F11, exec: () => this._toggleFullScreen(), help: "toggleFullScreen_action"},
 					    {key: Keys.RIGHT, alt: true, exec: () => this._browserWindow.webContents.goForward(), help: "pageForward_label"},
 					    {key: Keys.LEFT, alt: true, exec: () => this._tryGoBack(), help: "pageBackward_label"},
-					    {key: Keys.H, ctrl: true, exec: () => wm.hide(), help: "hideWindows_action"},
+					    {key: Keys.H, ctrl: true, exec: () => wm.minimize(), help: "hideWindows_action"},
 				    ])
 			    )
 		    })
